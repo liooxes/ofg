@@ -1,0 +1,40 @@
+#wrapper{
+margin: 0 auto;
+width: 900px;
+}
+
+.top{
+background: blue;
+width: 900px;
+height:140px;
+}
+
+.middle{
+width: 440px;
+height:300px;
+}
+
+.bottom{
+  background-color: lawngreen;
+  height: 190px;
+  width: 900px;
+}
+.container {
+  float:left;
+  margin-bottom: 20px;
+}
+.content {
+  width: 280px;
+  height: 120px;
+  float: left;
+}
+
+.third {
+  margin: 10px;
+}
+
+.single{
+  margin: 20px auto;
+  height: 150px;
+  float:none;
+}
