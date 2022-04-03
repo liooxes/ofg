@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <style type="text/css">
+    #wrapper{
+      margin: 0 auto;
+      width: 800px;
+    }
+    #container1{
+      width: auto;
+      height: 190px;
+      background: yellow;
+    }
+    #content1{
+      height:150px;
+      width: 200px;
+      margin: 20px;
+      float:right;
+      background: lavender;
+    }
+    #container2{
+      float: left;
+      width: inherit;
+      height: 40px;
+      background: black;
+    }
+    #container3{
+      float: left;
+      width: inherit;
+      height: 500px;
+      background: blue;
+      overflow:scroll;
+    }
+    #container5{
+      float:right;
+      width: 800px;
+      height: 120px;
+      background: brown;
+    }
+    .item{
+      width: 80px;
+      display: block;
+      float: left;
+      height: 30px;
+      margin: 5px;
+    }
+    .picture{
+      width:100px;
+      display:block;
+      height: 100px;
+      margin-top:20px;
+    }
+    .even{
+      float: left;
+      margin-left: 20px;
+    }
+    .odd{
+      float: right;
+      margin-right: 20px;
+    }
+    .log{
+      float: left;
+      width: 620px;
+      display: block;
+      height: 100px;
+      margin: 20px 20px 0 20px;
+    }
+  </style>
+  <head>
+    <meta charset="utf-8">
+    <title>Eigenes Design 02</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="container1">
+        <div id="content1"></div>
+      </div>
+      <div id="container2">
+        <div class="item" style="background:white"></div>
+        <div class="item" style="background:crimson"></div>
+        <div class="item" style="background:chocolate"></div>
+        <div class="item" style="background:green;float:right;"></div>
+      </div>
+      <div id="container3">
+        <div class="picture odd" style="background:beige"></div>
+        <div class="log" style="background:aqua"></div>
+        <div class="picture even" style="background:aqua"></div>
+        <div class="log" style="background:beige"></div>
+        <div class="picture odd" style="background:gold"></div>
+        <div class="log" style="background:bisque"></div>
+        <div class="picture even" style="background:bisque"></div>
+        <div class="log" style="background:gold"></div>
+        <div class="picture odd" style="background:cyan"></div>
+        <div class="log" style="background:lavender"></div>
+      </div>
+      <div id="container5"></div>
+    </div>
+  </body>
+</html>
